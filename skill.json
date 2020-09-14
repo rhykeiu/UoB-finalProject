@@ -1,0 +1,121 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Help older people to do arm strength at home.(This is a research skill in University of Bristol)",
+          "examplePhrases": [
+            "Alexa open arm strength",
+            "Alexa ask arm strength how to do WALL PRESS UP"
+          ],
+          "keywords": [
+            "exercise",
+            "old",
+            "people",
+            "movements",
+            "arm",
+            "strength",
+            "research",
+            "skill",
+            "University",
+            "of",
+            "Bristol"
+          ],
+          "name": "arm strength",
+          "description": "This is a University of Bristol Arm Strength exercise research skill, based on the “Exercises for older people: Strength” guide developed by NHS Choices.\n\nUse this skill to guide you through four arm exercises:\n\n\nChest Stretch-\"Alexa ask Arm Strength how can I do Chest Stretch\".\n\nUPPER BODY TWIST-\"Alexa ask Arm Strength about Upper Body Twist\".\n\nWall Press Up– “Alexa ask Arm Strength how to do Wall Press-Ups”.\n\nBicep Curls– “Alexa ask Arm Strength what\u0027s the guide for Bicep Curls”\n\n \nIf you’ve not done much physical activity for a while, you may want to get the all-clear from a GP before starting.\n\nWear loose, comfortable clothing and keep some water handy.\n\nTry to attempt these exercises at least twice a week, this will help to improve muscle strength, balance and co-ordination.\n\nBuild up slowly and aim to increase the repetitions of each exercise over time.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "User: Alexa, open arm strength.\n\nAlexa: Welcome to arm strength. This is a University of Bristol Arm Strength exercise skill, based on the “Exercises for older people: Strength” guide developed by NHS Choices. For the exercises that require a chair, chose one that is stable, solid and without wheels. You should be able to sit with feet flat on the floor and knees bent at right angles. Here are four strength exercises available: Chest Stretch, Upper Body Twist, Wall Press Up, Bicep Curls, You can ask a question like, How can I do Chest Stretch? ..Now, which one would you like to do?\n\nUser: I want to do Chest Stretch.\n\nAlexa: This stretch is good for posture.   First, Sit upright and away from the back of the chair. Pull your shoulders back and down. Extend arms out to the side. Second,  Gently push your chest forwards and up until you feel a stretch across your chest.    Let\u0027s hold for five seconds...,  Ready?  five,     four,     three,        two,    one..,    ok,      and repeat five times. You can say repeat to listen to this instruction again,  or  continue to ask for other exercises,   or say help to get the name of other strength exercises.`\n\n(with pictures and words in the screen.)\n\n\nUser:Repeat.\n\nAlexa:(will repeat again.)\n(with pictures and words in the screen.)\n\nUser:Help\n\nAlexa:You can ask questions such as, what\u0027s the guide for Wall Press Up, or, you can say exit ... Now, which arm strength exercise would you like to do?    Chest Stretch?    Upper Body Twist?         Wall Press Up?    or Bicep Curls.\n\nUser :Upper Body Twist.\n\nAlexa:This will develop and maintain flexibility in the upper back.  First,  Sit upright with feet flat on the floor, cross your arms and reach for your shoulders. Second,  Without moving your hips, turn your upper body to the left as far as is comfortable.  Let\u0027s hold for five seconds...,  Ready?  five,   four,   three,  two,  one.., ok,      and repeat going right. Do five of each.  You can say repeat to listen to this instruction again,  or continue to ask for other exercise,   or say help to get the name of other strength exercises .\n\n(with pictures and words in the screen.)\n-----------------------------------------------------------------------------------------------------------------\n\nUser:How can I do Wall Press Up.\n\nAlexa: To do wall press up,   first,  Stand at arm’s length from the wall. Place your hands flat against the wall, at chest level,  with fingers pointing upwards.  Second,    With back straight,  slowly bend your arms, keeping elbows by your side.   Aim to close the gap between you and the wall as much as you can.  Third, Slowly return to the start.  Attempt three sets of 5–10 repetitions.  You can say repeat to listen to this instruction again,    or continue to ask for other exercise,   or say help to get the name of other strength exercises.\n\n\n(with pictures and words in the screen.)\n-----------------------------------------------------------------------------------------------------------------\n\nUser: what\u0027s the guide for Bicep Curls?\n\nAlexa: To do bicep curls,   first,  Hold a pair of light weights (filled water bottles will do) and stand with your feet hip-width apart.  Second,  Keeping your arms by your side, slowly bend them until the weight in your hand reaches your shoulder. Third,   Lower again slowly.  This can also be carried out while sitting. Attempt three sets of five curls with each arm.  You can say repeat to listen to this instruction again,   or continue to ask for other exercise,   or say help to get the name of other strength exercises\n\n(with pictures and words in the screen.)\n-----------------------------------------------------------------------------------------------------------------\n\nUser: I want to do running.\n\nAlexa: I\u0027m sorry, I currently do not know that instruction. Which strength exercise would you like to do?   Chest Stretch?    Upper Body Twist?         Wall Press Up?    or Bicep Curls?\n\nUser: Stop\n\nAlexa: (will exist this skill)",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:215741930382:function:6e49e4b6-0c2f-431a-a4f0-47f6d3fbda58:Release_0"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "ROUND",
+                "maxHeight": 480,
+                "minWidth": 480,
+                "maxWidth": 480
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 600,
+                "minWidth": 1024,
+                "maxWidth": 1024
+              },
+              {
+                "minHeight": 800,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 800,
+                "minWidth": 1280,
+                "maxWidth": 1280
+              },
+              {
+                "minHeight": 540,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
+                "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 480,
+                "minWidth": 960,
+                "maxWidth": 960
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:215741930382:function:6e49e4b6-0c2f-431a-a4f0-47f6d3fbda58:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:215741930382:function:6e49e4b6-0c2f-431a-a4f0-47f6d3fbda58:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:215741930382:function:6e49e4b6-0c2f-431a-a4f0-47f6d3fbda58:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

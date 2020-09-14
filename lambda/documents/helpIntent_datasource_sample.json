@@ -1,0 +1,14 @@
+{
+    "sauceBossData": {
+      "description": "Use this datasource to render Help Template in APL Authoring Tool",
+      "headerTitle": "HELP",
+      "headerBackButton": "true",
+      "headerSubtitle": "Select the exercise you want to do",
+      "items": [
+          { "primaryText": "How to do chest stretch ?", "id": "HON" },
+          { "primaryText": "How to do upper body twist?", "id": "BBQ" },
+          { "primaryText": "How to do wall press up?", "id": "THO" },
+          { "primaryText": "How to do bicep curls?", "id": "PES" }
+      ]
+    }
+  }

@@ -1,0 +1,314 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "arm strength",
+      "intents": [
+        {
+          "name": "RecipeIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS",
+              "samples": [
+                "I want to do the {Item}",
+                "I want to do {Item} ",
+                "{Item}  sounds good",
+                "how about {Item}",
+                "I\u0027d like the guide for {Item}",
+                "{Item}"
+              ]
+            }
+          ],
+          "samples": [
+            "Alexa ask arm strength what\u0027s the guide for {Item}",
+            "Alexa ask arm strength how to do {Item}",
+            "Alexa open arm strength",
+            "I\u0027d like to do {Item} exercise ",
+            "How about {Item} exercise ",
+            "I want to do {Item} exercise ",
+            "I\u0027d like to do {Item}",
+            "How about {Item}",
+            "what should I do if I want {Item}",
+            "do you know how to do {Item}",
+            "teach me how to do {Item}",
+            "I want to know how can I do {Item}",
+            "what\u0027s the manual for {Item}",
+            "what are the manuals for {Item}",
+            "what are the guides for {Item}",
+            "what is the introduction for {Item}",
+            "what is the guide for {Item}",
+            "what\u0027s the introductions for {Item}",
+            "what\u0027s the introduction for {Item}",
+            "what\u0027s the instructions for {Item}",
+            "what\u0027s the guides for {Item}",
+            "I want to do an {Item}",
+            "I want to do the {Item}",
+            "I want to do {Item}",
+            "what guide do I need to do the {Item}",
+            "what is the instroduction for {Item} exercise",
+            "what is the instroduction for the {Item} exercise",
+            "what is the instroduction for an {Item} exercise",
+            "what is the instroduction for a {Item} exercise",
+            "what is the instroduction for {Item}",
+            "what is the instroduction for an {Item}",
+            "what is the instroduction for a {Item}",
+            "instroductions for {Item}",
+            "instroductions for the {Item}",
+            "instroductions for an {Item}",
+            "instroductions for a {Item}",
+            "instroduction for {Item}",
+            "instroduction for an {Item}",
+            "instroduction for a {Item}",
+            "instructions for the {Item} exercise",
+            "instructions for an {Item} exercise",
+            "instructions for  {Item} exercise",
+            "instruction for the {Item} exercise",
+            "instruction for a {Item} exercise",
+            "guides for the {Item} exercise",
+            "guides for an {Item} exercise",
+            "guides for a {Item} exercise",
+            "guides for the {Item}",
+            "guides for an {Item}",
+            "guides for a {Item}",
+            "guide for the {Item}",
+            "guide for an {Item}",
+            "guide for a {Item}",
+            "what is the instruction for {Item} exercise",
+            "what is the instruction for the {Item}",
+            "what is the instruction for {Item}",
+            "what is the instruction for an {Item}",
+            "how can I do {Item}",
+            "how can I do an {Item}",
+            "how can I craft {Item} exercise",
+            "how can I get a {Item}",
+            "how can I get an {Item}",
+            "how can I get {Item}",
+            "how can I practice a {Item}",
+            "how can I practice an {Item}",
+            "how can I practice {Item}",
+            "how can I practice {Item} exercise",
+            "how can you do a {Item}",
+            "how can you do an {Item}",
+            "how can you do {Item}",
+            "how can you get a {Item}",
+            "how can you get an {Item}",
+            "how can you get {Item}",
+            "how can you exercise a {Item}",
+            "how can you exercise an {Item}",
+            "how can you exercise {Item}",
+            "how can you do {Item} exercise",
+            "how do I do a {Item}",
+            "how do I do an {Item}",
+            "how do I do {Item}",
+            "how do I get a {Item}",
+            "how do I get an {Item}",
+            "how do I get {Item}",
+            "how do I learn a {Item}",
+            "how do I learn an {Item}",
+            "how do I learn {Item}",
+            "how do I learn {Item} exercise",
+            "how do you learn a {Item}",
+            "how do you learn an {Item}",
+            "how do you learn {Item}",
+            "how do you practice a {Item}",
+            "how do you practice an {Item}",
+            "how do you practice {Item}",
+            "how do you do a {Item}",
+            "how do you do an {Item}",
+            "how do you do {Item}",
+            "how is a {Item} practiced",
+            "how is a {Item} done",
+            "how is an {Item} learned",
+            "how is {Item} crafted",
+            "how is {Item} made",
+            "how is {Item} exercise practiced",
+            "how {Item} is practied",
+            "instruction for a {Item}",
+            "instruction for an {Item}",
+            "instruction for {Item}",
+            "instruction for {Item} exercise",
+            "instructions for a {Item}",
+            "instructions for an {Item}",
+            "instructions for {Item}",
+            "what are the instructions for a {Item}",
+            "what are the instructions for an {Item}",
+            "what are the instructions for {Item}",
+            "what are the instructions for {Item} exercise",
+            "what do I need for a {Item}",
+            "what do I need for an {Item}",
+            "what do I need for {Item}",
+            "what do I need for {Item} exercise",
+            "what do I need to do {Item}",
+            "what do I need to do a {Item}",
+            "what do I need to do an {Item}",
+            "what do I need to practice {Item} ",
+            "what do I need to practice a {Item}",
+            "what do I need to practice an {Item}",
+            "what do I need to practice for {Item}",
+            "what do I need to get to learn a {Item}",
+            "what do I need to get to learn an {Item}",
+            "what do I need to get to learn {Item}",
+            "what do I need to get to study a {Item}",
+            "what do I need to get to study an {Item}",
+            "what do I need to get to study {Item}",
+            "what do I need to have to study a {Item}",
+            "what do I need to have to learn an {Item}",
+            "what do I need to have to learn {Item}",
+            "what do I need to have to learn a {Item}",
+            "what do I need to have to study an {Item}",
+            "what do I need to have to study {Item}",
+            "what do I need to have to practice a {Item}",
+            "what do I need to have to practice an {Item}",
+            "what do I need to have to practice {Item}",
+            "what do I need to learn a {Item}",
+            "what do I need to learn an {Item}",
+            "what do I need to learn {Item}",
+            "what do you need for a {Item}",
+            "what do you need for an {Item}",
+            "what do you need for {Item}",
+            "what guides do I need to do a {Item}",
+            "what guides do I need to do an {Item}",
+            "what guides do I need to do {Item}",
+            "what guides do I need to do the {Item}",
+            "what guide do I need to do an {Item}",
+            "what guide do I need to do a {Item}",
+            "what guide do I need to do  {Item}",
+            "what is a {Item}",
+            "what is an {Item}",
+            "what is {Item}",
+            "what is the manual for a {Item}",
+            "what is the manual for an {Item}",
+            "what is the manual for {Item}",
+            "what is the manual for {Item} exercise",
+            "what\u0027s  a {Item}",
+            "what\u0027s  an {Item}",
+            "what\u0027s {Item}",
+            "what\u0027s the guide for a {Item}",
+            "what\u0027s the guide for an {Item}",
+            "what\u0027s the guide for {Item}",
+            "what\u0027s the guide for {Item} exercise",
+            "how to do {Item}",
+            "how to do a {Item}",
+            "how to do an {Item}",
+            "how to learn a {Item}",
+            "how to learn an {Item}",
+            "how to learn {Item}",
+            "how to learn {Item} sauce",
+            "{Item}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "PES",
+              "name": {
+                "value": "BICEP CURLS"
+              }
+            },
+            {
+              "id": "THO",
+              "name": {
+                "value": "WALL PRESS UP"
+              }
+            },
+            {
+              "id": "BBQ",
+              "name": {
+                "value": "UPPER BODY TWIST",
+                "synonyms": [
+                  "b. b. q."
+                ]
+              }
+            },
+            {
+              "id": "HON",
+              "name": {
+                "value": "CHEST STRETCH"
+              }
+            }
+          ],
+          "name": "LIST_OF_ITEMS"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "RecipeIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "ElicitItemPrompt"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "ItemValidationPrompt"
+                }
+              ]
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "ElicitItemPrompt",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which strength exercise did you want to do?     Chest Stretch?     Upper Body Twist?         Wall Press Up?     or Bicep Curls?"
+          }
+        ]
+      },
+      {
+        "id": "ItemValidationPrompt",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I didn\u0027t catch that.    Which strength exercise did you want?    Chest Stretch?    Upper Body Twist?      Wall Press Up?    or Bicep Curls? "
+          },
+          {
+            "type": "PlainText",
+            "value": "I don\u0027t know the guide for {Item} .  Which strength exercise did you want?    Chest Stretch?    Upper Body Twist?      Wall Press Up?      or Bicep Curls? "
+          }
+        ]
+      }
+    ]
+  },
+  "version": "25"
+}
